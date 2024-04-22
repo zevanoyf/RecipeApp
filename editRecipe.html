@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="max-w-2xl m-auto my-8 space-y-6">
+      <form id="form" class="space-y-4">
+        <input
+          id="name"
+          name="name"
+          class="block w-full border p-2 rounded-lg"
+        />
+        <textarea
+          id="ingredients"
+          name="ingredients"
+          rows="8"
+          class="block w-full border p-2 rounded-lg"
+        ></textarea>
+        <textarea
+          id="steps"
+          name="steps"
+          rows="8"
+          class="block w-full border p-2 rounded-lg"
+        ></textarea>
+        <button class="bg-indigo-500 text-white p-2 rounded-lg">Update</button>
+      </form>
+    </main>
+
+    <script src="editRecipe.js"></script>
+  </body>
+</html>
